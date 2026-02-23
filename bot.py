@@ -1,5 +1,3 @@
-print("Bot calisiyor...")
-input("Mesajiniz nedir?: ")
 def cevap_ver(mesaj):
     mesaj = mesaj.lower()
     if "nasılsın" in mesaj:
@@ -9,6 +7,6 @@ def cevap_ver(mesaj):
     else:
         return "Bunu henüz öğrenmedim ama üzerinde çalışıyorum."
 
-# Kullanıcıdan mesaj alalım
+print("--- WhatsApp Botu Hazır! ---")
 gelen = input("Gelen Mesaj: ")
 print("Botun Cevabı:", cevap_ver(gelen))
